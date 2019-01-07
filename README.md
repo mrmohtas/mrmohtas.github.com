@@ -1,72 +1,97 @@
-Portfolio of Thomas Sturge
-==========================
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby's default starter
+</h1>
 
-This is the code that makes up my [Portfolio Site](http://tomsturge.co.uk/ "Portfolio Site").
+Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-100% responsive and mobile friendly
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-**NOTE**: Despite this code base being open source, all its code and content remains copyright of the owner and creator Thomas Sturge.
+## 🚀 Quick start
 
-# Description
+1.  **Create a Gatsby site.**
 
-Even though this update is a fundemental rewrite of the original code base of the site it still uses the v2.0 design so instead of a new version this is a reworking and feature rich iteration of the same version.
+    Use the Gatsby CLI to create a new site, specifying the default starter.
 
-This update applies the site to the Jekyll static site generator and utilises the Liquid templatng engine to streamline and help with future upgrades.
+    ```sh
+    # create a new Gatsby site using the default starter
+    npx gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    ```
 
-The big additions to the front-end of the site are the posts and demos features, allow me to being publishing articles and demonstrate my experiments and ideas.
+1.  **Start developing.**
 
-# Change Log
+    Navigate into your new site’s directory and start it up.
 
-### 3.0 / 04-04-2014 ([tomsturge.co.uk](http://tomsturge.co/ "Site v3"))
-- Updated to a cleaner layout, reduced and focused the use of colours
-- Replaced fonts for nicer reading experience
-- New two stage menu for better responsiveness
-- Added teaching to the portfolio
-- Removed 'Demos' area, to be incorperated into 'Posts'
+    ```sh
+    cd my-default-starter/
+    gatsby develop
+    ```
 
-### 2.1. / 05-04-2013 
-- **The Jekyll update** 
-- Ground up rewrite, using Jekyll and Liquid templating. 
-- Ability to publish posts and host demos on the site with ease.  
-- Much improved readability due to increased contrast of background colours
+1.  **Open the source code and start editing!**
 
-### 2.0.1.  
-- Made the site responsive and mobile friendly.
-- Removed the curtain effect for a simplier scroll animation.
+    Your site is now running at `http://localhost:8000`!
 
-### 2.0 / 17-08-12 ([v2.tomsturge.co.uk](http://v2.tomsturge.co.uk/ "Site v2"))
-- Full portfolio.
-- Work showcase.
-- Longer biography.
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-### 1.1.0.
-- Added an intro animation to greet visitors and provide quick social links
+    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-### 1.0.2.  
-- Replaced all the sites images with CSS3 equivalents i.e gradients, border shapes and psudeo elements.
+## 🧐 What's inside?
 
-### 1.0.1. 
-- Added Feed box slide out to feed in images from Flickr, Dribbble and Zootools.
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-### 1.0 / 02-05-10 ([v1.tomsturge.co.uk](http://v1.tomsturge.co.uk/ "Site v1"))
-- Simple slide box for contact information
-    
-    
-# Features
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
-## Fonts:
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-### Supplied by [Google](http://google.co.uk "Google")
-[Lobster](http://www.google.com/fonts/specimen/Lobster "Lobster")  
-[Oswald](http://www.google.com/fonts/specimen/Oswald "Oswald")  
-[Source Sans Pro](http://www.google.com/fonts/specimen/Source+Sans+Pro "Source Sans Pro") 
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-### Supplied by [SymbolSet](http://symbolset.com "SymbolSet")
-[Social Regular](https://symbolset.com/sets/social-regular "Social Regular")
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-## Tools:
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-[Jekyll](http://jekyllrb.com/ "Jekyll") & [Liquid](https://github.com/Shopify/liquid "Liquid")  
-[SASS](http://sass-lang.com/ "SASS")
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-[jQuery](http://jquery.com "jquery")  
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+
+8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+
+9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+
+10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+
+11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+
+12. **`README.md`**: A text file containing useful reference information about your project.
+
+## 🎓 Learning Gatsby
+
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+<!-- AUTO-GENERATED-CONTENT:END -->
