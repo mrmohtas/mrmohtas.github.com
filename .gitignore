@@ -1,8 +1,2 @@
 node_modules/
-dist
-.tmp
-.sass-cache
-config
-config.rb
-public/
-.cache/
+package-lock.json
