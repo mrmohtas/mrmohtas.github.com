@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/home/tsturge/apps/tom.sturge.co/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/home/tsturge/apps/tom.sturge.co/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "44eaff0a779d0275333bdd32c62190e4",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -332,6 +341,203 @@
         "owner": "internal-data-bridge"
       }
     },
+    "7e29a237-8c95-5b62-a82f-105f8de2069a": {
+      "resolve": "/home/tsturge/apps/tom.sturge.co/node_modules/gatsby-plugin-netlify-cache",
+      "id": "7e29a237-8c95-5b62-a82f-105f8de2069a",
+      "name": "gatsby-plugin-netlify-cache",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/tsturge/apps/tom.sturge.co/node_modules/gatsby-plugin-netlify-cache",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cache",
+        "description": "Cache your build files on Netlify",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "cache"
+        ],
+        "author": {
+          "name": "Benedikt Rötsch",
+          "email": "info@benedikt-roetsch.de"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.6.1"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "eslint-config-standard",
+            "version": "^12.0.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-node",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "eslint-plugin-promise",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "eslint-plugin-standard",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.14.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2c25b193ed96b41b2c0ae3fc88b98f2b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/home/tsturge/apps/tom.sturge.co/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.21",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/tsturge/apps/tom.sturge.co/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.21",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2.0.53"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5b528dc73d2da188cc305081e0bc48cd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "94da9c2a-c30b-5507-9cc6-0459ce720af4": {
       "resolve": "/home/tsturge/apps/tom.sturge.co/node_modules/gatsby-source-filesystem",
       "id": "94da9c2a-c30b-5507-9cc6-0459ce720af4",
@@ -536,6 +742,83 @@
       "children": [],
       "internal": {
         "contentDigest": "869ea0963a1e63882796a4cbda36fdf6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/home/tsturge/apps/tom.sturge.co/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/tsturge/apps/tom.sturge.co/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">=2.0.32"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aa2181c8991f4e7f7625d21964b8a481",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1128,11 +1411,13 @@
       "resolve": "/home/tsturge/apps/tom.sturge.co",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "0367da18d470299383496abb50909612",
+      "version": "2c158d74bf5bbeb906622f7693eedb3c",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/tsturge/apps/tom.sturge.co",
@@ -1147,6 +1432,10 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.10.0"
+          },
+          {
             "name": "gatsby",
             "version": "^2.0.76"
           },
@@ -1159,12 +1448,16 @@
             "version": "^2.0.9"
           },
           {
+            "name": "gatsby-plugin-netlify-cache",
+            "version": "^1.0.0"
+          },
+          {
             "name": "gatsby-plugin-netlify-cms",
             "version": "^3.0.9"
           },
           {
             "name": "gatsby-plugin-offline",
-            "version": "^2.0.16"
+            "version": "^2.0.21"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -1173,6 +1466,10 @@
           {
             "name": "gatsby-plugin-sharp",
             "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.4"
           },
           {
             "name": "gatsby-source-filesystem",
@@ -1205,6 +1502,10 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
           }
         ],
         "devDependencies": [
@@ -1220,7 +1521,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "27a392096c644c7e04a887aa7566b106",
+        "contentDigest": "c6c766d947c89c595fe028912be898d5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1330,18 +1631,20 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter",
+        "title": "Tom Sturge",
         "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
         "author": "@gatsbyjs"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-23T20:51:56.651Z",
+      "buildTime": "2019-01-24T20:13:08.635Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6af7280dce629671ba8428d79b5c5b31",
+        "contentDigest": "f34bd4ec2f28666a34d4c36e6da1a323",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1351,7 +1654,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fb551da88d6c974d133014f04d957e94",
+        "contentDigest": "dac3b914f4cafc8a447ef1eebaf5fb94",
         "type": "Directory",
         "description": "Directory \"blog\"",
         "owner": "gatsby-source-filesystem"
@@ -1362,10 +1665,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-01-07T22:03:55.156Z",
-      "accessTime": "2019-01-23T20:47:08.523Z",
-      "changeTime": "2019-01-07T22:03:55.156Z",
-      "birthTime": "2019-01-07T22:03:55.156Z",
+      "modifiedTime": "2019-01-24T08:23:17.624Z",
+      "accessTime": "2019-01-24T08:23:17.628Z",
+      "changeTime": "2019-01-24T08:23:17.624Z",
+      "birthTime": "2019-01-24T08:23:17.624Z",
       "root": "/",
       "dir": "/home/tsturge/apps/tom.sturge.co",
       "base": "blog",
@@ -1381,14 +1684,81 @@
       "blksize": 4096,
       "ino": 18614862,
       "blocks": 8,
-      "atimeMs": 1548276428523.208,
-      "mtimeMs": 1546898635155.5427,
-      "ctimeMs": 1546898635155.5427,
-      "birthtimeMs": 1546898635155.5427,
-      "atime": "2019-01-23T20:47:08.523Z",
-      "mtime": "2019-01-07T22:03:55.156Z",
-      "ctime": "2019-01-07T22:03:55.156Z",
-      "birthtime": "2019-01-07T22:03:55.156Z"
+      "atimeMs": 1548318197627.9014,
+      "mtimeMs": 1548318197623.9016,
+      "ctimeMs": 1548318197623.9016,
+      "birthtimeMs": 1548318197623.9016,
+      "atime": "2019-01-24T08:23:17.628Z",
+      "mtime": "2019-01-24T08:23:17.624Z",
+      "ctime": "2019-01-24T08:23:17.624Z",
+      "birthtime": "2019-01-24T08:23:17.624Z"
+    },
+    "9f2533e7-340b-5c92-8288-0c5852e7d591": {
+      "id": "9f2533e7-340b-5c92-8288-0c5852e7d591",
+      "children": [
+        "3bc421da-b2a9-5948-97b4-ee72eb3e8eb2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5a61126415df44aef74dff4ffc27a9f1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"blog/test-post.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/home/tsturge/apps/tom.sturge.co/blog/test-post.md",
+      "relativePath": "test-post.md",
+      "extension": "md",
+      "size": 106,
+      "prettySize": "106 B",
+      "modifiedTime": "2019-01-24T08:23:17.624Z",
+      "accessTime": "2019-01-24T08:23:17.632Z",
+      "changeTime": "2019-01-24T08:23:17.624Z",
+      "birthTime": "2019-01-24T08:23:17.624Z",
+      "root": "/",
+      "dir": "/home/tsturge/apps/tom.sturge.co/blog",
+      "base": "test-post.md",
+      "ext": ".md",
+      "name": "test-post",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18614835,
+      "blocks": 8,
+      "atimeMs": 1548318197631.9014,
+      "mtimeMs": 1548318197623.9016,
+      "ctimeMs": 1548318197623.9016,
+      "birthtimeMs": 1548318197623.9016,
+      "atime": "2019-01-24T08:23:17.632Z",
+      "mtime": "2019-01-24T08:23:17.624Z",
+      "ctime": "2019-01-24T08:23:17.624Z",
+      "birthtime": "2019-01-24T08:23:17.624Z"
+    },
+    "3bc421da-b2a9-5948-97b4-ee72eb3e8eb2": {
+      "id": "3bc421da-b2a9-5948-97b4-ee72eb3e8eb2",
+      "children": [],
+      "parent": "9f2533e7-340b-5c92-8288-0c5852e7d591",
+      "internal": {
+        "content": "This is a test post, here is a change\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "3e038bd7fa1c8226bc2d4b9028a9493a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Test post",
+        "path": "/test",
+        "date": "2019-01-23T21:27:34.349Z",
+        "_PARENT": "9f2533e7-340b-5c92-8288-0c5852e7d591"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "This is a test post, here is a change\n",
+      "fileAbsolutePath": "/home/tsturge/apps/tom.sturge.co/blog/test-post.md"
     },
     "fdfb8945-5502-54d6-8370-69962321abe4": {
       "id": "fdfb8945-5502-54d6-8370-69962321abe4",
@@ -1454,7 +1824,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-07T15:48:55.000Z",
-      "accessTime": "2019-01-07T16:55:49.288Z",
+      "accessTime": "2019-01-23T20:52:04.447Z",
       "changeTime": "2019-01-07T16:55:30.404Z",
       "birthTime": "2019-01-07T16:55:30.404Z",
       "root": "/",
@@ -1472,14 +1842,24 @@
       "blksize": 4096,
       "ino": 18615780,
       "blocks": 48,
-      "atimeMs": 1546880149288.104,
+      "atimeMs": 1548276724446.9612,
       "mtimeMs": 1546876135000,
       "ctimeMs": 1546880130404.1104,
       "birthtimeMs": 1546880130404.1104,
-      "atime": "2019-01-07T16:55:49.288Z",
+      "atime": "2019-01-23T20:52:04.447Z",
       "mtime": "2019-01-07T15:48:55.000Z",
       "ctime": "2019-01-07T16:55:30.404Z",
       "birthtime": "2019-01-07T16:55:30.404Z"
+    },
+    "9f50ef4a-2f60-5f79-8df3-b52d9869a536": {
+      "id": "9f50ef4a-2f60-5f79-8df3-b52d9869a536",
+      "children": [],
+      "parent": "fd9026ec-8033-5170-bb0c-c2b055ba5201",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "43d7ff04-6051-502f-92d4-8c72a66bdf87": {
       "id": "43d7ff04-6051-502f-92d4-8c72a66bdf87",
@@ -1501,7 +1881,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-01-07T15:48:55.000Z",
-      "accessTime": "2019-01-07T16:55:49.280Z",
+      "accessTime": "2019-01-23T20:52:04.447Z",
       "changeTime": "2019-01-07T16:55:30.404Z",
       "birthTime": "2019-01-07T16:55:30.404Z",
       "root": "/",
@@ -1519,24 +1899,14 @@
       "blksize": 4096,
       "ino": 18615781,
       "blocks": 328,
-      "atimeMs": 1546880149280.104,
+      "atimeMs": 1548276724446.9612,
       "mtimeMs": 1546876135000,
       "ctimeMs": 1546880130404.1104,
       "birthtimeMs": 1546880130404.1104,
-      "atime": "2019-01-07T16:55:49.280Z",
+      "atime": "2019-01-23T20:52:04.447Z",
       "mtime": "2019-01-07T15:48:55.000Z",
       "ctime": "2019-01-07T16:55:30.404Z",
       "birthtime": "2019-01-07T16:55:30.404Z"
-    },
-    "9f50ef4a-2f60-5f79-8df3-b52d9869a536": {
-      "id": "9f50ef4a-2f60-5f79-8df3-b52d9869a536",
-      "children": [],
-      "parent": "fd9026ec-8033-5170-bb0c-c2b055ba5201",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "232d7623-bc9f-5853-b46c-264c7622aebc": {
       "id": "232d7623-bc9f-5853-b46c-264c7622aebc",
@@ -1546,6 +1916,26 @@
         "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /test": {
+      "jsonName": "test-453",
+      "internalComponentName": "ComponentTest",
+      "path": "/test",
+      "component": "/home/tsturge/apps/tom.sturge.co/src/templates/blogTemplate.js",
+      "componentChunkName": "component---src-templates-blog-template-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/tsturge/apps/tom.sturge.co/src/templates/blogTemplate.js",
+      "id": "SitePage /test",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "627a774515fb0b7bb5d8d4daaae071ce",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
       }
     },
     "SitePage /404/": {
@@ -1588,26 +1978,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
-      "jsonName": "page-2-fbc",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/home/tsturge/apps/tom.sturge.co/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "ca48fc0a-5eab-5545-ae68-19944e54b744",
-      "pluginCreatorId": "ca48fc0a-5eab-5545-ae68-19944e54b744",
-      "componentPath": "/home/tsturge/apps/tom.sturge.co/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "43af273cadfded5564145eeb19ea8025",
-        "description": "ca48fc0a-5eab-5545-ae68-19944e54b744",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -1631,7 +2001,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4c257a67710521a15b2023f9c5d3be36"
+    "PLUGINS_HASH": "dd0f256e5b3cd322b57a56f3891192be"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1644,43 +2014,48 @@
       ],
       "232d7623-bc9f-5853-b46c-264c7622aebc": [
         "sq--src-components-image-js"
+      ],
+      "3bc421da-b2a9-5948-97b4-ee72eb3e8eb2": [
+        "/test"
       ]
     },
-    "connections": {}
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        "/"
+      ]
+    }
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-seo-js": 1025518380,
     "sq--src-components-layout-js": 755544856,
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "147/path---index-6a9-cwyxnPF88FiGTFpDdQhyL0Bee4",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2011440971
+    "sq--src-components-image-js": 2011440971,
+    "test-453": "282/path---test-453-c74-CPG40bATBn2dn9K7A4ZrmkVK7z4"
   },
   "components": {
+    "/home/tsturge/apps/tom.sturge.co/src/templates/blogTemplate.js": {
+      "query": "query homeTsturgeAppsTomSturgeCoSrcTemplatesBlogTemplateJs168693149(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    timeToRead\n    frontmatter {\n      date(formatString: \"MMMM DD, YYYY\")\n      path\n      title\n    }\n  }\n}\n",
+      "componentPath": "/home/tsturge/apps/tom.sturge.co/src/templates/blogTemplate.js"
+    },
+    "/home/tsturge/apps/tom.sturge.co/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/tsturge/apps/tom.sturge.co/.cache/dev-404-page.js"
+    },
     "/home/tsturge/apps/tom.sturge.co/src/pages/404.js": {
       "query": "",
       "componentPath": "/home/tsturge/apps/tom.sturge.co/src/pages/404.js"
     },
     "/home/tsturge/apps/tom.sturge.co/src/pages/index.js": {
-      "query": "",
+      "query": "query homeTsturgeAppsTomSturgeCoSrcPagesIndexJs4005809700 {\n  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        id\n        excerpt(pruneLength: 250)\n        timeToRead\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          path\n          title\n        }\n      }\n    }\n  }\n}\n",
       "componentPath": "/home/tsturge/apps/tom.sturge.co/src/pages/index.js"
-    },
-    "/home/tsturge/apps/tom.sturge.co/src/pages/page-2.js": {
-      "query": "",
-      "componentPath": "/home/tsturge/apps/tom.sturge.co/src/pages/page-2.js"
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-seo-js": {
-      "name": "DefaultSEOQuery",
-      "componentPath": "/home/tsturge/apps/tom.sturge.co/src/components/seo.js",
-      "id": "sq--src-components-seo-js",
-      "jsonName": "sq--src-components-seo-js",
-      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
-      "hash": 1025518380
-    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/home/tsturge/apps/tom.sturge.co/src/components/layout.js",
@@ -1696,6 +2071,14 @@
       "jsonName": "sq--src-components-image-js",
       "query": "query homeTsturgeAppsTomSturgeCoSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/home/tsturge/apps/tom.sturge.co/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
     }
   }
 }
